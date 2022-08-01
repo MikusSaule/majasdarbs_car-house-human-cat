@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.car-body{
+    position:absolute;
+    background-color: gray;
+    width: 180px;
+    height: 110px;
+    border-top-left-radius: 60%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 20%;
+}
+.window{
+    position: absolute;
+    background-color: blue;
+    width: 90px;
+    height: 55px;
+    left: 45px;
+    top: 10px;
+    border-top-left-radius: 60%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 20%;
+}
+.wheel1{
+    position: absolute;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 75px;
+    top: 80px;
+    left: 10px;
+}
+.wheel2{
+    position: absolute;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 75px;
+    top: 80px;
+    right: 10px;
+}
+/*Car*/
+.house{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.house-body{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    left: 100px;
+}
+.roof{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.roof-left{
+    position: absolute;
+    background-color: rgb(43, 41, 41);
+    width: 10px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -120px;
+    transform: rotate(45deg);
+    margin-left: -115px;
+    border-radius: 75px;
+
+}
+.roof-right{
+    position: absolute;
+    background-color: rgb(43, 41, 41);
+    width: 10px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -120px;
+    transform: rotate(-45deg);
+    margin-left: 115px;
+    border-radius: 75px;
+
+}
+.roof-bottom{
+    position: absolute;
+    background-color: rgb(43, 41, 41);
+    width: 10px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -95px;
+    transform: rotate(90deg);
+    margin-left: -5px;
+    border-radius: 75px;
+
+}
+.window1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(30, 30, 210);
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.window2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(30, 30, 210);
+    width: 60px;
+    height: 60px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.door{
+    position: absolute;
+    background-color: blanchedalmond;
+    width: 50px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 124px;
+}
+.d-handle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 75px;
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+/*House*/
+.human{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 25px;
+    height: 50px;
+    border-radius: 75px;
+    margin: 40px;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    margin-left: 120px;
+    border-bottom-left-radius: 250%;
+    border-bottom-right-radius: 250%;
+}
+.head{
+    background-color: burlywood;
+    width: 30px;
+    height: 30px;
+    border-radius: 75px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top:11px;
+}
+.LegnArm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right-leg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 5px;
+    height: 30px;
+    background-color: burlywood;
+    margin-top: 80px;
+    margin-left: 90px;
+    border-radius: 75px;
+}
+.right-foot{
+    position: absolute;
+    width: 2.5px;
+    height: 10px;
+    background-color: burlywood;
+    margin-top: 23.75px;
+    margin-right: -5px;
+    border-radius: 75px;
+    transform: rotate(90deg);
+}
+.left-leg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 5px;
+    height: 30px;
+    background-color: burlywood;
+    margin-top: 80px;
+    margin-left: 70px;
+    border-radius: 75px;
+}
+.left-foot{
+    position: absolute;
+    width: 2.5px;
+    height: 10px;
+    background-color: burlywood;
+    margin-top: 23.75px;
+    margin-left: -5px;
+    border-radius: 75px;
+    transform: rotate(90deg);
+}
+.right-arm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 5px;
+    height: 30px;
+    background-color: burlywood;
+    margin-top: -40px;
+    margin-left: 45px;
+    border-radius: 75px;
+    transform: rotate(-45deg);
+}
+.right-fist{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: burlywood;
+    margin-top: 23.75px;
+    margin-right: -5px;
+    border-radius: 75px;
+    transform: rotate(90deg);
+}
+.left-arm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 5px;
+    height: 30px;
+    background-color: burlywood;
+    margin-top: -40px;
+    margin-left: -25px;
+    border-radius: 75px;
+    transform: rotate(45deg);
+}
+.left-fist{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: burlywood;
+    margin-top: 25.75px;
+    margin-left: -5px;
+    border-radius: 75px;
+    transform: rotate(90deg);
+}
+/*Human*/
+.cat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.cat-body{
+    background-color: brown;
+    width: 75px;
+    height: 30px;
+    position: absolute;
+    margin-right: 800px;
+    border-radius: 75px;
+    margin-top: 100px;
+}
+.tail{
+    width: 7.5px;
+    height: 50px;
+    background-color: brown;
+    margin-left: 70px;
+    position: absolute;
+    border-radius: 75px;
+    margin-top: -20px;
+    transform: rotate(45deg);
+}
+.cat-head{
+    border-radius: 75px;
+    width: 35px;
+    height: 35px;
+    background-color: brown;
+    position: absolute;
+    margin-right: 850px;
+    margin-top: 80px;
+}
+.cleft-ear{
+    background-color: brown;
+    width: 10px;
+    height: 10px;
+    border-radius: 75px;
+    margin-right: 875px;
+    border-top-left-radius: 100%;
+}
+.cright-ear{
+    background-color: brown;
+    width: 10px;
+    height: 10px;
+    border-radius: 75px;
+    margin-left: 25px;
+    border-top-right-radius: 100%;
+    margin-top: -10px;
+}
+.catLeg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.leg1{
+    width: 7.5px;
+    height: 30px;
+    background-color: brown;
+    margin-right: 750px;
+    position: absolute;
+    border-radius: 75px;
+    margin-top: 120px;
+    transform: rotate(-45deg);
+}
+.leg2{
+    width: 7.5px;
+    height: 30px;
+    background-color: brown;
+    margin-right: 850px;
+    position: absolute;
+    border-radius: 75px;
+    margin-top: 120px;
+    transform: rotate(45deg);
+}
